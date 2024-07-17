@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Car mercedes = new Car() { Make = "Mercedes-Benz", Model = "GLE", Year = "2024" };
+            Console.WriteLine($"My latest cars is a {mercedes.Year} {mercedes.Make} {mercedes.Model}");
         }
     }
 }
